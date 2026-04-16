@@ -1,0 +1,28 @@
+{
+  "app_name": "Software Installer",
+  "version": "2.0",
+  "last_updated": "2026-04-16",
+  "download_url": "https://github.com/YOUR_USERNAME/YOUR_RELEASE_REPO/releases/download/v1.0/setup.exe",
+  "_comment": "download_url สามารถใส่ที่ระดับบนสุด (ใช้กับทุกรหัส) หรือใส่แยกรายรหัสด้านล่างก็ได้",
+  "keys": [
+    {
+      "key": "ABCD-1234-EFGH-5678",
+      "active": true,
+      "note": "ลูกค้าคนที่ 1",
+      "message": "ยินดีต้อนรับ! รหัสถูกต้อง"
+    },
+    {
+      "key": "WXYZ-9999-QRST-0000",
+      "active": true,
+      "note": "ลูกค้าคนที่ 2 - ใช้ไฟล์ติดตั้งคนละเวอร์ชัน",
+      "message": "รหัสถูกต้อง ✓",
+      "download_url": "https://github.com/YOUR_USERNAME/YOUR_RELEASE_REPO/releases/download/v2.0-beta/setup.exe"
+    },
+    {
+      "key": "TEST-0000-DEMO-1111",
+      "active": false,
+      "note": "รหัสทดสอบ - ปิดใช้งานแล้ว",
+      "message": ""
+    }
+  ]
+}
